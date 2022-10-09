@@ -1,0 +1,92 @@
+*{padding:0;
+ margin:0;
+}
+
+.container{display:flex;
+           flex-direction:column;
+           justify-content:center;
+           align-items:center;
+           height:100vh;
+           width:100%;
+           font-family:cursive;
+           }
+
+.subcontainer{display:flex;
+              flex-direction:column;
+              justify-content:space-between;
+              align-items:center;
+              border:none;
+              border-radius:20px;
+              box-shadow:10px 10px 10px rgba(0, 0, 0, 0.178),
+                          -10px -10px 10px rgba(0, 0, 0, 0.178);
+              padding:4rem;
+              width:60%;
+              }
+
+.gamepart{display:flex;
+          flex-direction:row;
+          justify-content:space-between;
+          align-items:center;
+          width:100%;
+         }
+
+.you,.computer{width:40%;
+               display:flex;
+               flex-direction:column;
+               justify-content:center;
+               align-items:center;
+               font-size:2rem;
+               font-weight:bolder;
+
+               }
+
+.user{font-size:2rem;
+      font-weight:bold;
+     }
+
+.versus{font-size:2rem;}
+
+
+.options{width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+         }
+
+.butt,.butt1{width:20%;
+      height:2rem;
+      border:none;
+      color:white;
+      background-color: blueviolet;
+      border-radius:50px;
+     }
+
+.butt1{background-color:red;}
+
+.results{width:100%;
+         padding:2rem;
+         font-size:3rem;
+         text-align:center;}
+
+.resetdiv{width:100%;
+          display:flex;
+          flex-direction:row;
+          justify-content:center;
+          align-items:center;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
